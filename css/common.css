@@ -1,0 +1,133 @@
+h1 {
+    text-align: center;
+}
+
+.curriculum {
+    border: 1px solid;
+}
+
+/* HEADER */
+
+
+.header .flex-container{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.nomecognome {
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-right: 75%;
+}
+
+.nightM {
+    text-align: right;
+}
+
+#enableDarkMode {
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px 17px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+.nightMode {
+    background: #5b5555;
+}
+
+/* TESTO */
+
+.competenze {
+    border: 1px solid;
+    margin: 50px 10px;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.flex-container2{
+    display: flex;
+    margin: 50px 10px;
+
+}
+
+.hobby {
+    border: 1px solid;
+    width: 75%;
+    padding-left: 30px;
+}
+
+
+#luce {
+    font-size: 27px;
+    font-weight: 700px;
+    text-decoration: none;
+    padding: 15px 17px;    
+    border: none;
+    border-radius: 3px;
+}
+
+
+.illumi {
+    background: lightgoldenrodyellow;
+}
+
+
+/* TEST */
+.test {
+    border: 1px solid;
+    margin: 50px 10px;
+    padding-left: 30px;
+}
+
+.parti {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: warp;
+}
+
+.parte {
+    height: 100px;
+    width: 160px;
+    border: 1px solid;
+    margin: 10px;
+    text-align: center;
+    background: white;
+}
+
+.uno {
+    background: red;
+}
+.due {
+    background: red;
+}
+.tre {
+    background: red;
+}
+.quattro {
+    background: red;
+}
+.cinque {
+    background: red;
+}
+
+#cerchio {
+    margin: 50px 45%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+.colorOne {
+    background: yellowgreen;
+  }
+
+.colorTwo {
+    background: violet;
+}
