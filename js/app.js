@@ -82,15 +82,17 @@ const pcinque = document.querySelector("#cinque");
 
         calcolo(sum)
         
-        setTimeout (() => {console.log(calcolo(sum))}, 5000);
+        setTimeout (() => {console.log(calcolo(sum))}, 10000);
     
 })
+
+// Cerchio
 
 let intervSet;
 
 const changeColor = () => {
-    if (intervSet) {
-        intervSet = setInterval(flashC, 1000);
+    if (!intervSet) {
+        intervSet = setInterval(flashC, 5000);
     }
 };
 
@@ -102,12 +104,10 @@ const flashC = () => {
         cerchio.className = "colorOne";
     }
 };
+changeColor();
 
 document.addEventListener("keypress", (event) => {
-    if (event.key === "enter") {
-        clearInterval(intervSet);
-        intervSet = null;
-    } else if (event.key === " ") {
-        colorOne();
+    if (event.key === "Enter") {
+    clearInterval(intervSet);
     }
 });
